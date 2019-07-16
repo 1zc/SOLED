@@ -1,4 +1,10 @@
-build
-*.egg-info
-*.pyc
-setuptools-*
+
+SOLED/.vs/slnx.sqlite
+SOLED/.vs/SOLED/v16/.suo
+.vs/slnx.sqlite
+.vs/SOLED/v16/.suo
+.vs/VSWorkspaceState.json
+SOLED/.vs/slnx.sqlite
+SOLED/.vs/VSWorkspaceState.json
+SOLED/.vs/slnx.sqlite
+*.sqlite

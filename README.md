@@ -1,31 +1,40 @@
-Adafruit Python SSD1306
-=======================
+# [SOLED](https://github.com/1zc/SOLED)
+SOLED is a python-based library that can be used to operate various monochrome SSD/SSH-driver OLED displays with a Raspberry Pi.
 
-Python library to use SSD1306-based 128x64 or 128x32 pixel OLED displays with a Raspberry Pi or Beaglebone Black.
+A list of all display modules SOLED is currently compatible is available below.
 
-Designed specifically to work with the Adafruit SSD1306-based OLED displays ----> https://www.adafruit.com/categories/98
+ 
+### Setup
 
-Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!
+SOLED is fairly simple to install.
 
-Installing
-----------
+First, perform a simple update.
+> sudo apt -y update && sudo apt -y upgrade
 
-```
-sudo python -m pip install --upgrade pip setuptools wheel
-sudo pip install Adafruit-SSD1306
-```
+Next, we can begin setting up some dependencies by:
+> sudo python -m pip install --upgrade pip setuptools wheel
 
-Or alternatively:
+Finally, we install SOLED using:
+> git clone https://github.com/1zc/SOLED.git && cd SOLED && sudo python setup.py install
 
-```
-sudo python -m pip install --upgrade pip setuptools wheel
-git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
-cd Adafruit_Python_SSD1306
-sudo python setup.py install
-```
+### List of Compatible Display Modules
 
-Copying
--------
+This list can also be found in DISPLAYS.txt
+If a display module is marked compatible, it applies for both i2C and SPI variants.
 
-Written by Tony DiCola for Adafruit Industries.
-MIT license, all text above must be included in any redistribution
+Module | Resolution | Compatibility | Status
+------------ | ------------- | ------------- | -------------
+SSD1306 | 128x64 | ✔️ Compatible | ✔️ Tested
+SSD1306 | 128x32 | ✔️ Compatible | ✔️ Tested
+SSD1306 | 96x16 | ✔️ Compatible | ☀️ Not Tested
+SSD1306 | 96x48 | ✔️ Compatible | ✔️ Tested
+SSD1306 | 64x48 | ✔️ Compatible | ☀️ Not Tested
+SSD1306 | 64x32 | ❌ Incompatible | 🔄 Will be added soon
+SSD1306 | 72x40 | ❌ Incompatible | 🔄 Will be added soon
+SSD1306 | 96x64 | ❌ Incompatible | 🔄 Will be added soon
+SSD1306 | 128x128 | ❌ Incompatible | 🔄 Will be added soon
+// | // | // | //
+SSH1106 | 128x64 | ✔️ Compatible | 🌐 In dev. Please create an issue if there are any problems!
+// | // | // | //
+SSD1351 | 128x64 | ❌ Incompatible | 🌐 In dev.
+SSD1351 | 128x32 | ❌ Incompatible | 🌐 In dev.
