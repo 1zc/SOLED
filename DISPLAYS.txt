@@ -1,16 +1,10 @@
 List of compatible displays and resolutions:
 
-> [SSD1306] 128x32 OLED {i2C/SPI}
-> [SSD1306] 128x64 OLED {i2C/SPI}
-> [SSD1306] 96x16 OLED  {i2C/SPI}
-> [SSD1306] 96x48 OLED {i2C/SPI}
-> [SSD1306] 64x48 OLED  {i2C/SPI}
+> [SSD1306] 128x32 Resolution
+> [SSD1306] 128x64 Resolution
+> [SSD1306] 96x16 Resolution
+> [SSD1306] 96x48 Resolution
+> [SSD1306] 64x48 Resolution
 
-Coming to compatibility list:
+> [SH1106] 128x64 Resolution OLED
 
-> [SSD1306] 64x32 OLED  {i2C/SPI}
-> [SSD1306] 72x40 OLED  {i2C/SPI}
-> [SSD1306] 96x64 OLED  {i2C/SPI}
-> [SSD1306] 48x64 OLED  {i2C/SPI}
-> [SSD1306] 128x128 OLED  {i2C/SPI}
-> [SSD1306] 96x96 OLED  {i2C/SPI}
