@@ -94,6 +94,7 @@ height = disp.height        # Fetches display height in pixels.
 disp.clear()                # Clears the display buffer.
 disp.display()              # Renders the contents of the display buffer on the display.
 
-image = Image.open('static.ppm').convert('1')    # Image file must be the same size as display resolution.
+image = Image.open('static.ppm').convert('1')
+image = image.resize((width, height))
 disp.image(image)
 disp.display()

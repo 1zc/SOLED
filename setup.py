@@ -16,7 +16,7 @@ classifiers = ['Development Status :: 3 - Alpha',
                'Topic :: System :: Hardware']
 
 setup(name              = 'SOLED',
-      version           = '1.0.1',
+      version           = '1.0.2',
       author            = 'Liam Charles',
       author_email      = 'liamzcharles@gmail.com',
       description       = 'The SOLED (SSD1306 OLED) Engine is a library for the Raspberry Pi to use small SSD/SSH-driver OLED displays using the SPI/i2C bus.',

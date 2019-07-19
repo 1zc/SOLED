@@ -1,1 +1,1 @@
-from SOLED import *
+from .SOLED import *

@@ -1,5 +1,5 @@
 # [SOLED](https://github.com/1zc/SOLED)
-SOLED is a python-based library that can be used to operate various SSD/SH-driver OLED displays with a Raspberry Pi.
+SOLED is a simple python-based library that can be used to operate various SSD/SH-driver OLED displays with a Raspberry Pi.
 
 A list of all display modules SOLED is currently compatible is available below.
 
@@ -17,10 +17,12 @@ Next, we can begin setting up some dependencies by:
 Finally, we install SOLED using:
 > git clone https://github.com/1zc/SOLED.git && cd SOLED && sudo python setup.py install
 
+**To install using Python3, replace python with python3 and pip with pip3 in the above instructions.**
+
 ## List of Compatible Display Modules
 
 This list can also be found in DISPLAYS.txt
-If a display module is marked compatible, it applies for both i2C and SPI variants.
+(If a display module is marked compatible, it applies for both i2C and SPI variants.)
 
 Module | Resolution | Compatibility | Status
 ------------ | ------------- | ------------- | -------------
@@ -29,7 +31,7 @@ SSD1306 | 128x32 | ✔️ Compatible | ✔️ Tested
 SSD1306 | 96x16 | ✔️ Compatible | ☀️ Not Tested
 SSD1306 | 96x48 | ✔️ Compatible | ✔️ Tested
 SSD1306 | 64x48 | ✔️ Compatible | ☀️ Not Tested
-SSD1306 | 64x32 | ❌ Incompatible | 🔄 Will be added soon
+SSD1306 | 64x32 | ✔️ Compatible | ☀️ Not Tested
 SSD1306 | 72x40 | ❌ Incompatible | 🔄 Will be added soon
 SSD1306 | 96x64 | ❌ Incompatible | 🔄 Will be added soon
 SSD1306 | 128x128 | ❌ Incompatible | 🔄 Will be added soon
